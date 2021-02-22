@@ -1,0 +1,16 @@
+Yarn install
+npm install --global yarn
+
+Cria package.json (-y para yes nas opções)
+yarn init -y
+
+Dependências
+yarn add express
+yarn add @types/express -D (-D desenvolvimento)
+yarn add typescript -D
+
+Inicializar typescript
+yarn tsc --init
+
+
+Rodar prog TS 
