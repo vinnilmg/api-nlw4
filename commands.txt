@@ -12,5 +12,11 @@ yarn add typescript -D
 Inicializar typescript
 yarn tsc --init
 
+Converter para js automaticamente
+yarn add ts-node-dev -D
 
-Rodar prog TS 
+Rodar
+yarn dev
+
+
+pkill node
