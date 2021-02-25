@@ -1,14 +1,13 @@
+import 'reflect-metadata';
 import express from 'express';
+import { router } from './routes';
+
+import './database';
+
 
 const app = express();
 
-//routes
-app.get('/', (request, response) => {
-    return response.json({message: 'Hello world NLW04'});
-})
-
-app.post('/', (request, response) => {
-    return response.json({message: 'Dados salvos.'});
-})
+app.use(express.json());
+app.use(router);
 
 app.listen(5050, () => console.log("Server is running!!")); //criar servidor

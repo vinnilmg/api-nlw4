@@ -15,8 +15,20 @@ yarn tsc --init
 Converter para js automaticamente
 yarn add ts-node-dev -D
 
-Rodar
-yarn dev
+BD:
+yarn add typeorm reflect-metadata
+yarn add pg
 
+UUID:
+yarn add uuid
+yarn add @types/uuid -D
 
+Outros comandos:
 pkill node
+yarn dev
+yarn typeorm
+
+Migrations:
+Criar Migrations: yarn typeorm migrations:create -n {NOME MIGR}
+Executar migration: yarn typeorm migrations:run
+Revert: yarn typeorm migrations:revert
