@@ -33,3 +33,13 @@ Criar Migrations: yarn typeorm migrations:create -n {NOME MIGR}
 Executar migration: yarn typeorm migration:run
 Revert: yarn typeorm migrations:revert
 
+Testes aut
+yarn add jest @types/jest -D
+yarn add ts-jest -D
+yarn add supertest @types/supertest -D
+yarn add cross-env -D 
+
+JEST:
+yarn jest --init
+yarn test
+
