@@ -30,5 +30,6 @@ yarn typeorm
 
 Migrations:
 Criar Migrations: yarn typeorm migrations:create -n {NOME MIGR}
-Executar migration: yarn typeorm migrations:run
+Executar migration: yarn typeorm migration:run
 Revert: yarn typeorm migrations:revert
+
