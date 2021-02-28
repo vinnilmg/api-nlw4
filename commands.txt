@@ -43,3 +43,6 @@ JEST:
 yarn jest --init
 yarn test
 
+EMAIL:
+yarn add nodemailer
+yarn add @types/nodemailer -D
