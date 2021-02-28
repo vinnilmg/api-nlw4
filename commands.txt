@@ -46,3 +46,4 @@ yarn test
 EMAIL:
 yarn add nodemailer
 yarn add @types/nodemailer -D
+yarn add handlebars
