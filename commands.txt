@@ -6,6 +6,7 @@ yarn init -y
 
 Dependências
 yarn add express
+yarn add express-async-errors
 yarn add @types/express -D (-D desenvolvimento)
 yarn add typescript -D
 
@@ -47,3 +48,6 @@ EMAIL:
 yarn add nodemailer
 yarn add @types/nodemailer -D
 yarn add handlebars
+
+VALIDACOES
+yarn add yup
